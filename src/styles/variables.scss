@@ -1,0 +1,59 @@
+// 全息投影配色方案
+$holographic-primary: #00e5ff;
+$holographic-secondary: #0080ff;
+$holographic-gradient: linear-gradient(135deg, #00e5ff 0%, #0080ff 100%);
+$holographic-background: #0a1929;
+$holographic-surface: #0d2135;
+$holographic-opacity: 0.6;
+
+// 扩展色彩
+$holographic-accent: #00bcd4;
+$holographic-success: #4caf50;
+$holographic-warning: #ff9800;
+$holographic-error: #f44336;
+$holographic-info: #2196f3;
+
+// 文字颜色
+$text-primary: #ffffff;
+$text-secondary: rgba(255, 255, 255, 0.7);
+$text-disabled: rgba(255, 255, 255, 0.4);
+$text-holographic: $holographic-primary;
+
+// 边框和阴影
+$border-holographic: 1px solid rgba(0, 229, 255, 0.3);
+$shadow-holographic: 0 0 20px rgba(0, 229, 255, 0.3);
+$shadow-holographic-strong: 0 0 40px rgba(0, 229, 255, 0.5);
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// 圆角
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// 动画时长
+$animation-fast: 0.2s;
+$animation-normal: 0.3s;
+$animation-slow: 0.5s;
+$animation-holographic-scan: 1s;
+
+// Z-index层级
+$z-index-dropdown: 1000;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+$z-index-loading: 9999;
+
+// 断点
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1920px;
